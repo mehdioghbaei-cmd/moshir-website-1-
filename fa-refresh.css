@@ -72,6 +72,24 @@ html[lang=fa] .chat-launcher{padding:11px 16px}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}html[lang=fa] *{transition:none!important}}
 
 /* Supplied brand artwork, kept intact at its original aspect ratio. */
+.new-routes-heading{border-top:1px solid #dbe2d1;padding-top:35px;margin:40px 0 22px}
+.new-routes-heading h3{font-size:25px;margin:8px 0;color:#294e3b}
+.new-routes-heading p{font-size:13px;color:#53664e;max-width:800px;line-height:2.1}
+html[lang=fa] .new-country-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+html[lang=fa] .new-country-grid .country-image{height:185px}
+html[lang=fa] .new-country-grid .country-body{padding:22px}
+html[lang=fa] .new-country-grid .country-name h3{font-size:25px}
+html[lang=fa] .new-country-grid .country-body>p{font-size:13px;min-height:105px}
+html[lang=fa] .new-country-grid .route-chips{flex-wrap:wrap;min-height:100px;align-content:start}
+html[lang=fa] .new-country-grid .route-chips a{font-size:11px;padding:8px 10px}
+.route-availability{display:block;width:fit-content;font-size:10px;color:#79572f;background:#f4ead6;border:1px solid #e2cfaa;border-radius:6px;padding:5px 9px;line-height:1.9;margin:8px 0 14px}
+.applicant-checklist{margin-top:35px;padding:28px;background:#eef2df;border-radius:13px}
+.applicant-checklist h3{margin:0 0 22px;font-size:21px;font-weight:600}
+.applicant-checklist>div{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.applicant-checklist strong{font-size:14px}
+.applicant-checklist p{font-size:13px;color:#4c6046;line-height:2}
+.applicant-checklist .text-button{font-size:12px}
+@media(max-width:800px){html[lang=fa] .new-country-grid{grid-template-columns:1fr}html[lang=fa] .new-country-grid .country-image{height:200px}html[lang=fa] .new-country-grid .country-body>p{min-height:0}html[lang=fa] .new-country-grid .route-chips{min-height:0}.applicant-checklist{padding:22px}.applicant-checklist>div{grid-template-columns:1fr;gap:22px}.applicant-checklist article+article{border-top:1px solid #d1ddbd;padding-top:20px}}
 html[lang=fa] .brand-official{flex-shrink:0;line-height:0}
 html[lang=fa] .brand-official .official-logo{display:block;width:176px;height:auto;max-width:100%;border-radius:5px}
 html[lang=fa] .header{height:122px}
